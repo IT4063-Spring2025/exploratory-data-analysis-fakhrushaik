@@ -20,7 +20,7 @@
 # #### Package Imports
 # We will keep coming back to this cell to add "import" statements, and configure libraries as we need
 
-# In[ ]:
+# In[4]:
 
 
 import pandas as pd
@@ -51,10 +51,10 @@ plt.style.use("bmh")
 # 
 # Make sure you name the variable `auto_mpg_df` and that you use the appropriate pandas method to load the data.
 
-# In[ ]:
+# In[5]:
 
 
-
+auto_mpg = pd.read_csv('./data/auto-mpg/auto-mpg.data', sep="\t")
 
 
 # <details>
@@ -852,7 +852,7 @@ display(without_outliers.shape)
 
 # Make sure you run the following cell; this converts this Jupyter notebook to a Python script. and will make the process of reviewing your code on GitHub easier
 
-# In[ ]:
+# In[2]:
 
 
 # 🦉: The following command converts this Jupyter notebook to a Python script.
